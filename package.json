@@ -1,6 +1,6 @@
 {
   "name": "axios",
-  "version": "1.5.1",
+  "version": "1.5.1-lineaje-01",
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
   "exports": {
@@ -64,7 +64,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/axios/axios.git"
+    "url": "https://github.com/lineaje-labs-gos/axios-axios"
   },
   "keywords": [
     "xhr",
@@ -75,6 +75,25 @@
   ],
   "author": "Matt Zabriskie",
   "license": "MIT",
+  "contributors": [
+    "Matt Zabriskie (https://github.com/mzabriskie)",
+    "Nick Uraltsev (https://github.com/nickuraltsev)",
+    "Jay (https://github.com/jasonsaayman)",
+    "Dmitriy Mozgovoy (https://github.com/DigitalBrainJS)",
+    "Emily Morehouse (https://github.com/emilyemorehouse)",
+    "Rub\u00e9n Norte (https://github.com/rubennorte)",
+    "Justin Beckwith (https://github.com/JustinBeckwith)",
+    "Martti Laine (https://github.com/codeclown)",
+    "Xianming Zhong (https://github.com/chinesedfan)",
+    "Rikki Gibson (https://github.com/RikkiGibson)",
+    "Remco Haszing (https://github.com/remcohaszing)",
+    "Yasu Flores (https://github.com/yasuf)",
+    "Ben Carp (https://github.com/carpben)",
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/axios/axios/issues"
   },
@@ -154,21 +173,6 @@
       "path": "./dist/axios.min.js",
       "threshold": "5kB"
     }
-  ],
-  "contributors": [
-    "Matt Zabriskie (https://github.com/mzabriskie)",
-    "Nick Uraltsev (https://github.com/nickuraltsev)",
-    "Jay (https://github.com/jasonsaayman)",
-    "Dmitriy Mozgovoy (https://github.com/DigitalBrainJS)",
-    "Emily Morehouse (https://github.com/emilyemorehouse)",
-    "Rubén Norte (https://github.com/rubennorte)",
-    "Justin Beckwith (https://github.com/JustinBeckwith)",
-    "Martti Laine (https://github.com/codeclown)",
-    "Xianming Zhong (https://github.com/chinesedfan)",
-    "Rikki Gibson (https://github.com/RikkiGibson)",
-    "Remco Haszing (https://github.com/remcohaszing)",
-    "Yasu Flores (https://github.com/yasuf)",
-    "Ben Carp (https://github.com/carpben)"
   ],
   "sideEffects": false,
   "release-it": {
