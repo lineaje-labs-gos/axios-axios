@@ -1,6 +1,6 @@
 {
   "name": "axios",
-  "version": "1.5.1-lineaje-01",
+  "version": "1.18.0-lineaje-01",
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
   "exports": {
@@ -165,7 +165,7 @@
   "typings": "./index.d.ts",
   "dependencies": {
     "follow-redirects": "^1.15.0",
-    "form-data": "^4.0.0",
+    "form-data": ">=4.0.6",
     "proxy-from-env": "^1.1.0"
   },
   "bundlesize": [
@@ -217,5 +217,11 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "overrides": {
+    "form-data": ">=4.0.6"
+  },
+  "resolutions": {
+    "form-data": ">=4.0.6"
   }
 }
